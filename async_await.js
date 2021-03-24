@@ -16,7 +16,10 @@ async function loadJson(url){
         throw new HttpError(response)
 }
 
-/* loadJson('no-such-user.json')
+//
+// load data fron file json
+//
+/* loadJson('./json/user.json')
     .catch((e)=>{console.log("Error- ", e)})
     .then(function(data){
         console.log(data);
